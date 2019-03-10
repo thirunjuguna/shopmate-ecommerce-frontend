@@ -1,15 +1,18 @@
+[![Coverage Status](https://coveralls.io/repos/github/p8ul/shopmate-ecommerce-frontend/badge.svg?branch=master)](https://coveralls.io/github/p8ul/shopmate-ecommerce-frontend?branch=master)
+[![Build Status](https://travis-ci.org/p8ul/shopmate-ecommerce-frontend.svg?branch=master)](https://travis-ci.org/p8ul/shopmate-ecommerce-frontend)
+
 🔥Turing shopmate ecommerce frontend code.
 
 ## Feature requirements
-[] Users can view all items when entering the website
-[] Items are displayed properly based on the selected department and category
-[] Users can search items through search box
-[] Support paging if we have too many items
-[] Users can see item details by selecting a specific item
-[] Users can add items to their shopping carts
-[] Users can register/login using website custom forms, or social login libraries
-[] Users can update personal profiles with shipping addresses and other info
-[] Users can checkout with 3rd party payment gateways: Paypal, Stripe…
+- [ ] Users can view all items when entering the website
+- [ ] Items are displayed properly based on the selected department and category
+- [ ] Users can search items through search box
+- [ ] Support paging if we have too many items
+- [ ] Users can see item details by selecting a specific item
+- [ ] Users can add items to their shopping carts
+- [ ] Users can register/login using website custom forms, or social login libraries
+- [ ] Users can update personal profiles with shipping addresses and other info
+- [ ] Users can checkout with 3rd party payment gateways: Paypal, Stripe…
 
 ## Tech Stack
 

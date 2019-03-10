@@ -1,0 +1,64 @@
+.hidden.menu 
+    display: none;
+  
+.banner, .ui.inverted.menu
+    background-color:$dark-primary !important
+
+.ui.menu.inverted
+    margin-top: 0
+    .item
+        font-weight: 600
+        &__search input[type=text]
+            border-radius: 1.285714rem !important
+            border-color: transparent
+            background-color: rgba(255, 255, 255, 0.5) !important
+            color: $white-two
+            &::placeholder
+                color: $white-two
+        i.icon:before
+            color: $white-two !important
+        &:active
+            font-weight: 600
+    .item.logo
+       font-size: 23px !important
+       font-weight: 600
+       color: $red-pink
+
+.ui.container.navbar
+    width: 90% !important
+.top.normal
+    transition: 300ms ease;
+.top.fixed
+    animation: fadeIn 2s;
+
+@keyframes fadeIn
+    from{ opacity: 0 }
+    to{ opacity: 1 }
+
+
+.shopping.bag
+    .floating.label
+        position: absolute;
+        z-index: 100;
+        top: 0em;
+        left: 75%;
+        margin: 0 0 0 -1.5em!important;
+        color: $red-pink
+        background-color: $white-two
+    &.black
+        .floating.label
+            background-color: $red-pink
+            color: $white-two
+
+
+@include screen-size-tablet-max
+    .ui.top.menu 
+        display: none !important
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu 
+        display: none
+    
+    .secondary.pointing.menu .toc.item 
+      display: block
+
+  

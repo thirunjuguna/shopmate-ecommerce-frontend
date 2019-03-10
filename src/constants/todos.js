@@ -1,0 +1,3 @@
+export const FETCH_QUESTIONS = 'FETCH_QUESTIONS';
+
+export default FETCH_QUESTIONS;
