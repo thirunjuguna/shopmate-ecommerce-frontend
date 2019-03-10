@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/p8ul/shopmate-ecommerce-frontend/badge.svg?branch=master)](https://coveralls.io/github/p8ul/shopmate-ecommerce-frontend?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/p8ul/shopmate-ecommerce-frontend/badge.svg?branch=master&cacheBuster=1)](https://coveralls.io/github/p8ul/shopmate-ecommerce-frontend?branch=master)
 [![Build Status](https://travis-ci.org/p8ul/shopmate-ecommerce-frontend.svg?branch=master)](https://travis-ci.org/p8ul/shopmate-ecommerce-frontend)
 
 🔥Turing shopmate ecommerce frontend code.
