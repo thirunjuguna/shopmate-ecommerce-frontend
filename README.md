@@ -1,6 +1,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/p8ul/shopmate-ecommerce-frontend/badge.svg?branch=master&cacheBuster=1)](https://coveralls.io/github/p8ul/shopmate-ecommerce-frontend?branch=master)
 [![Build Status](https://travis-ci.org/p8ul/shopmate-ecommerce-frontend.svg?branch=master)](https://travis-ci.org/p8ul/shopmate-ecommerce-frontend)
-[![Heroku](https://heroku-badge.herokuapp.com/?app=shopmate)]
+[![Heroku](https://heroku-badge.herokuapp.com/?app=shopmate&style=flat)](https://shopmate.herokuapp.com/)
+
 🔥Turing shopmate ecommerce frontend code.
 
 ## Feature requirements
