@@ -45,13 +45,15 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.0",
     "react-router-enzyme-context": "^1.2.0",
-    "redux-devtools": "^3.4.2"
+    "redux-devtools": "^3.4.2",
+    "redux-saga-testing": "^1.0.5"
   },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!src/index.js",
       "!src/serviceWorker.js",
+      "!src/utils/*",
       "!src/views/Templates/TemplateDefault.js"
     ]
   }
