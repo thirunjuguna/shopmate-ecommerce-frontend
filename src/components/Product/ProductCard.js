@@ -18,9 +18,6 @@ const ProductCard = ({ product }) => (
           £
             {product.price}
           </div>
-          <button className="ui button bg-red-pink" type="button">
-            Buy now
-          </button>
         </div>
       </div>
       <div className="product__overlay">

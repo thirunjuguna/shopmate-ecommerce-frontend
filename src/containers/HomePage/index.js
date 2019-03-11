@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import ProductList from '../Product/ProductList';
 import Intro from '../../components/Intro';
+import Heading from '../../components/Heading/index';
+import Category from '../Category';
 
 export class HomePage extends Component {
   static propTypes = {
@@ -15,7 +17,10 @@ export class HomePage extends Component {
     return (
       <React.Fragment>
         <Intro />
+        <Heading />
+        <Category />
         <ProductList />
+
       </React.Fragment>
 
     );

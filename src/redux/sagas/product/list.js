@@ -10,7 +10,7 @@ export function* fetchProductsAsync({ payload }) {
     const data = response ? response.data : {};
     yield put(actions.fetchProductsSuccess({ data }));
   } catch (error) {
-    yield put(actions.fetchProductsFailure({ }));
+    yield put(actions.fetchProductsFailure({}));
   }
 }
 /* WATCHERS */

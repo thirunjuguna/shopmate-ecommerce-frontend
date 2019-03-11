@@ -7,7 +7,7 @@ const ProductList = ({ products }) => {
   const { data } = products;
   return (
     <Container className="content">
-      <Grid columns="6" stackable equal="true">
+      <Grid columns="5" stackable equal="true">
         <Grid.Row>
           {data.rows.map(product => (
             <ProductCard key={product.product_id} product={product} />
