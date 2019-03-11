@@ -1,12 +1,12 @@
-import LandingPage from '../components/Intro';
+import HomePage from '../containers/HomePage';
 import Login from '../components/Login';
 import SignUp from '../components/SignUp';
 
 const indexRoutes = [
   {
     path: '/',
-    name: 'Landing Page',
-    component: LandingPage,
+    name: 'Home Page',
+    component: HomePage,
   },
   {
     path: '/login',
