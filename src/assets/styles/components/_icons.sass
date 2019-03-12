@@ -1,0 +1,24 @@
+.btn.close 
+  position: absolute
+  right: 17px !important;
+  top: 7px !important;
+  width: 32px !important
+  height: 32px !important
+  opacity: 0.3 !important
+  &:hover
+      opacity: 1 !important
+
+.btn.close:before, .btn.close:after 
+  position: absolute
+  left: 15px
+  content: ' '
+  height: 33px
+  width: 2px
+  background-color: $dark-black
+
+.btn.close:before 
+  transform: rotate(45deg)
+
+.btn.close:after 
+  transform: rotate(-45deg)
+

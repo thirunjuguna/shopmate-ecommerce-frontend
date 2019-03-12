@@ -1,5 +1,4 @@
-import { TOKEN_KEY } from '../constants';
-
+const TOKEN_KEY = 'api-token';
 /**
  * Store jwt token in localStorage
  * @param {!string} token jwt token from server
@@ -8,7 +7,6 @@ import { TOKEN_KEY } from '../constants';
 export const setToken = (token, key = TOKEN_KEY) => {
   localStorage.setItem(key, JSON.stringify(token));
 };
-
 
 /**
  * Get token from localstorage
@@ -34,7 +32,9 @@ export const isLoggedIn = () => {
   try {
     const user = getToken();
     return !!user.token;
-  } catch (error) { return error === false; }
+  } catch (error) {
+    return error === false;
+  }
 };
 
 export const authUserHeader = () => {

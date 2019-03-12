@@ -1,0 +1,47 @@
+.category
+    .category__column
+        .ui.header
+            font-family: $montserrat-family
+            font-weight: bold
+            font-size: 24px
+            color: $red-pink
+            text-transform: uppercase
+        .ui.link.list
+            a
+                color: $dark-black
+                font-family: $lucida-grande
+                font-size: 24px
+                line-height: 1.5
+                &:hover
+                    color: $red-pink
+
+.department
+    &__overlay
+        display: flex
+        position: absolute
+        height: 91%
+        top: 0%
+        left: 31%
+        text-align: center
+        align-items: center
+        color: white
+    &__title 
+        font-size: 4em
+        color: $white
+        font-family: $playfair-family
+
+    &__image
+        &:after
+            position: absolute;
+            content: '';
+            width: 95%;
+            height: 100%;
+            top: 0
+            pointer-events: none;
+        &.nature:after
+            background: $orange-faded
+        &.regional:after
+            background: $light-blue
+        .ui.image
+            width: 100%;
+            height: 240px;

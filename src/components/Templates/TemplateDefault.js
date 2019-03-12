@@ -5,7 +5,6 @@ import FixedMenu from '../Menu/FixedMenu';
 import SidebarMenu from '../Menu/SidebarMenu';
 import Footer from '../Footer';
 
-
 const TemplateDefault = ({ children }) => (
   <React.Fragment>
     <Menu />

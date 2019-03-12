@@ -1,6 +1,8 @@
 import HomePage from '../containers/HomePage';
-import Login from '../components/Login';
-import SignUp from '../components/SignUp';
+import CategoryPage from '../containers/Category/CategoryPage';
+import DepartmentPage from '../containers/Department/DepartmentPage';
+import SingleProduct from '../containers/Product/SingleProduct';
+import CartList from '../containers/Cart/CartList';
 
 const indexRoutes = [
   {
@@ -9,15 +11,17 @@ const indexRoutes = [
     component: HomePage,
   },
   {
-    path: '/login',
-    name: 'Login',
-    component: Login,
+    path: '/category/:inCategory',
+    name: 'Category',
+    component: CategoryPage,
   },
   {
-    path: '/signup',
-    name: 'SignUp',
-    component: SignUp,
+    path: '/department/:inDepartment',
+    name: 'Department',
+    component: DepartmentPage,
   },
+  { path: '/single/:id', name: 'Single Product', component: SingleProduct },
+  { path: '/cart', name: 'Cart List', component: CartList },
 ];
 
 export default indexRoutes;
